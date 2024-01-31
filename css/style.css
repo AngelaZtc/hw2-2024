@@ -37,7 +37,7 @@ img{
 div{
     min-height: 125px;
 padding:20px;
-border: 5px solid white;}
+border: 3px solid white;}
 
 .introduction{
     border-radius: 15px;
@@ -49,15 +49,15 @@ border: 5px solid white;}
     background-color: red;
     text-align: right;
     margin-left: 50px;
-    border-bottom: 2px;
-  border-left: 5px;
+    border-top: 2px;
+    border-right: 5px;
 }
 
 .blue{background-color: blue;
     text-align: left;
     margin-right: 50px;
-    border-top: 2px;
-    border-right: 5px;
+    border-bottom: 2px;
+    border-left: 5px;
 }
 .blue h2{color: #C4C4C4}
 .blue p{color: #C4C4C4}
@@ -66,8 +66,8 @@ border: 5px solid white;}
     background-color: #FFFF00;
     text-align: right;
     margin-left: 50px;
-    border-bottom: 2px;
-    border-left: 5px;
+    border-top: 2px;
+    border-right: 5px;
 }
 
 .yellow p{color:#707070}
@@ -76,10 +76,19 @@ border: 5px solid white;}
     background-color:#008500;
     text-align: left;
     margin-right: 50px;
-    border-top: 2px;
-    border-right: 5px;
+    border-bottom: 2px;
+    border-left: 5px;
 }
 
+footer{
+    background-image: linear-gradient(
+        to right,
+        #000000 0%,
+        #0000ff 25%,
+        #0066ff 70%, 
+        #000000 100%);
+      border: 5px solid white;
+}
 footer p{
    font-size: 20px;
     text-align: right;
@@ -91,4 +100,4 @@ padding: 15px 15px 15px 0px;
  the blue div border [FAILED]
  yellow div border [FAILED]
  the green div border [FAILED]
- footer border */
+ */
