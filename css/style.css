@@ -60,8 +60,8 @@ border: 3px solid white;}
 .blue{background-color: #0000FF;
     text-align: left;
     margin-right: 50px;
-    border-top: 2p solid;
     border-right: 5px solid;
+    border-top: 2px solid;
     border-bottom: 0px;
     border-left: 0px
 }
